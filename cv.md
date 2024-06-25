@@ -4,3 +4,12 @@
 * Location: Minsk, Belarus
 * E-mail: sergeyproshko2005@gmail.com
 * My telegram: [Serproshko](https://t.me/Serproshko)
+## About me
+## My skills
+* HTML
+* CSS
+* JavaScript
+* Python
+## Example code
+## Education
+## My languages
