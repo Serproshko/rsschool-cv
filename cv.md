@@ -12,4 +12,8 @@
 * Python
 ## Example code
 ## Education
+At the moment I receiving education in college of Belorussian State Academy of Communications from 2021.
 ## My languages
+* Russian
+* Belorussian
+* English (A1)
