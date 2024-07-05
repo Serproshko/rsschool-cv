@@ -1,3 +1,17 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../rsschool-cv/fonts/ubuntu-sans-v2-latin/ubuntu-sans-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../rsschool-cv/fonts/ubuntu-sans-v2-latin/ubuntu-sans-v2-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +19,56 @@
 }
 
 .content{
+    color: white;
+    font-family: 'Ubuntu Sans';
     width: 100%;
     height: 100%;
     background-color: #116688;
+}
+
+h1{
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+    font-family: 'Ubuntu Sans';
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Ubuntu Sans';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.photo{
+    width: 350px;
+    height: 350px;
+}
+
+.head-content{
+    display: flex;
+}
+
+.about{
+    margin-left: 10px;
+    width: 100%;
+}
+
+.line{
+    margin: 5px 0 5px 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+header{
+    background-color: #33bbaa;
+    height: 400px;
+}
+
+.about-me{
+    font-family: 'Ubuntu Sans';
+    color: #ffffff;
 }
 
 .code{
