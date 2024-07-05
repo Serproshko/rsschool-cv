@@ -12,10 +12,15 @@
     font-weight: 700;
     src: url('../rsschool-cv/fonts/ubuntu-sans-v2-latin/ubuntu-sans-v2-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .content{
@@ -27,9 +32,10 @@
 }
 
 h1{
+    text-align: center;
+    width: 350px;
     color: #ffffff;
     height: 50px;
-    text-align: center;
     font-family: 'Ubuntu Sans';
     font-weight: 700;
 }
@@ -45,11 +51,22 @@ h2{
     height: 350px;
 }
 
+.name{
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.prof{
+    text-align: center;
+    font-family: 'Ubuntu Sans';
+    color: #ffffff;
+}
+
 .head-content{
     display: flex;
 }
 
-.about{
+#about{
     margin-left: 10px;
     width: 100%;
 }
@@ -61,9 +78,13 @@ h2{
     background-color: #fff;
 }
 
+nav{
+    width: 100%;
+}
+
 header{
     background-color: #33bbaa;
-    height: 400px;
+    height: 100%;
 }
 
 .about-me{
@@ -71,8 +92,37 @@ header{
     color: #ffffff;
 }
 
+.menu{
+    height: 80px;
+    display: flex;
+}
+
+.links{
+    margin-left: 150px;
+    display: flex;
+    list-style-type: none;
+}
+
+.link{
+    margin: 30px 100px 0 0;
+}
+
+a{
+    font-family: 'Ubuntu Sans';
+    color: #ffffff;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.photo{
+    width: 350px;
+}
+
+.info{
+    display: flex;
+}
+
 .code{
-    margin: 50px 470px 0 470px;
     width: 500px;
     height: 150px;
     background-color: #eee;
