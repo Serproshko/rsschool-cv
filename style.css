@@ -122,7 +122,29 @@ a{
     display: flex;
 }
 
+.left-column{
+    width: 350px;
+    /* border: 3px solid #ffffff; */
+}
+
+.contacts{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.right-column{
+    width: 1073px;
+    height: 500px;
+    background-color: #33bbaa;
+}
+
+#example{
+    margin-left: 10px;
+}
+
 .code{
+    margin: 0 auto; 
+    margin-top: 50px;
     width: 500px;
     height: 150px;
     background-color: #eee;
@@ -143,4 +165,40 @@ code{
 
 .red{
     color: #ff0000;
+}
+
+.html-icon{
+    display: flex;
+}
+
+.css-icon{
+    display: flex;
+}
+
+.js-icon{
+    display: flex;
+}
+
+.python-icon{
+    display: flex;
+}
+
+.skills-list{
+    margin-top: 30px;
+}
+
+#skills{
+    margin-top: 30px;
+}
+
+#educ{
+    margin: 50px 0 50px 10px;
+}
+
+#lang{
+    margin-left: 10px;
+}
+
+ul{
+    list-style-type: none;
 }
