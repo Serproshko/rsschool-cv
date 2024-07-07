@@ -48,11 +48,6 @@ h2{
     color: #ffffff;
 }
 
-.photo{
-    width: 350px;
-    height: 350px;
-}
-
 .name{
     margin-bottom: 10px;
     width: 350px;
@@ -121,13 +116,13 @@ a{
 }
 
 .info{
+    width: 100%;
     display: flex;
 }
 
 .left-column{
     background-color: #446688;
     width: 350px;
-    /* border: 3px solid #ffffff; */
 }
 
 .contacts{
@@ -136,7 +131,7 @@ a{
 }
 
 .right-column{
-    width: 1073px;
+    width: 1093px;
     height: 500px;
     background-color: #33bbaa;
 }
