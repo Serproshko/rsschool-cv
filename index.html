@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+    <header>
+        <div class="menu">
+            <div class="name">
+                <h1>Sergey Proshko</h1>
+                <p class="prof">Future frontend-developer</p>
+            </div>
+            <nav>
+                <ul class="links">
+                    <li class="link"><a href="#about">About me</a></li>
+                    <li class="link"><a href="#skills">Skills</a></li>
+                    <li class="link"><a href="#example">Code example</a></li>
+                    <li class="link"><a href="#educ">Education</a></li>
+                    <li class="link"><a href="#lang">My languages</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="head-content">
+                <img src="my_photo2.jpg" alt="Sergey Proshko" width="345px">
+            <div id="about">
+                <h2>About me</h2>
+                <div class="line"></div>
+                <p class="about-me"> My name is Sergey. I'm 19 years old. I want to try myself to be a frontend-developer. For receiving skills
+                in the frontend, i learning in the RS School. In the future I plan't to stop there and develop the acquired skills.<br>
+                My hobbys: ride a bike, and read books.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <div class="left-column">
+                <div class="contacts">
+                    <ul>
+                        <li>Location: Minsk, Belarus</li>
+                        <li>E-mail: sergeyproshko2005@gmail.com</li>
+                        <li>My telegram: <a href="https://t.me/Serproshko">@Serproshko</a></li>
+                    </ul>
+                </div>
+                <div id="skills">
+                    <h2>My skills</h2>
+                    <ul class="skills-list">
+                        <li class="html-icon"><img src="html.png" height="50" width="50" alt="HTML">HTML</li>
+                        <li class="css-icon"><img src="css.png" height="50" width="50" alt="CSS">CSS</li>
+                        <li class="js-icon"><img src="js.png" height="50" width="50" alt="JS">JavaScript</li>
+                        <li class="python-icon"><img src="python.png" height="50" width="50" alt="Python">Python</li>
+                    </ul>
+                </div>    
+            </div>
+            <div class="right-column">
+                <div id="example">
+                    <h2>Code example</h2>
+                    <div class="line"></div>
+                    <div class="code">
+                    <code>
+                        <code class="blue">function</code><code class="red"> squareDigits(</code><code class="blue">num</code><code class="red">){</code><br>
+                        <code class="blue">num</code> = <code class="red">String</code><code class="red">(</code><code class="blue">num</code><code class="red">)</code><code class="yellow">.split</code><code class="red">('')</code><br>
+                        <code class="blue">for</code><code class="red">(</code><code class="blue">i = 0; i &lt; num.length; i++</code><code class="red">){</code><br>
+                        <code class="blue">num[i]</code> = <code class="red">Math</code><code class="yellow">.pow</code><code class="red">(</code><code class="blue">num[i],2</code><code class="red">)</code><br>
+                        <code class="red">}</code><br>
+                        <code class="red">return +</code><code class="blue"> num</code><code class="yellow">.join</code><code class="red">('')</code><br>
+                        <code class="red">}</code><br>
+                    </code>
+                    </div>
+                </div>
+                <div id="educ">
+                    <h2>Education</h2>
+                    <div class="line"></div>
+                    <p>College of Belorussian State Academy of Communications (2021 - now)</p>
+                </div>
+                <div id="lang">
+                    <h2>My languages</h2>
+                    <div class="line"></div>
+                    <ul>
+                        <li>Russian</li>
+                        <li>Belorussian</li>
+                        <li>English (A1)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-icons">
+                <a href="https://github.com/Serproshko"><img class="icon-github" src="github.png" width="100" height="100" alt="Github"></a>
+                <p class="app-info">&copy; 2024 by Sergey Proshko</p>
+                <a href="https://rs.school/courses/javascript-ru"><img class="course-icon" src="rs-school-logo.svg" width="200" height="100" alt="course"></a>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

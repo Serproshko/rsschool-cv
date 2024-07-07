@@ -15,12 +15,13 @@ My hobbys: ride a bike, and read books.
 * Python
 ## Example code
 ```javascript
-    function sum(){
-        let a = 3
-        let b = 6
-        return a + b 
-    }
-console.log(sum()) 
+function squareDigits(num){
+  num = String(num).split('')
+  for(let i = 0; i < num.length; i++){
+    num[i] = Math.pow(num[i],2)
+  }
+  return +num.join('')
+}
 ```
 ## Education
 At the moment I receiving education in college of Belorussian State Academy of Communications from 2021.
